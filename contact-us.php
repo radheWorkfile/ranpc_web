@@ -79,8 +79,10 @@
 							<p class="text-red">E-Mail : <a href="mailto:<?php echo $email; ?>"
 									class="a-man"><?php echo $email; ?></a></p>
 
-							<p class="text-red"><i class="fas fa-phone fa-rotate-90 px-2 "></i>+91
-								<?php echo $mobile_1 . ',' . $mobile_2; ?></p>
+							<a href="tel:<?php echo $mobile_1 . ',' . $mobile_2; ?>" class="text-red"><i
+									class="fas fa-phone fa-rotate-90 px-2 "></i>+91
+								<?php echo $mobile_1 . ',' . $mobile_2; ?>
+							</a>
 
 						</div>
 					</div>
@@ -88,10 +90,13 @@
 						<div class="py-4 cus-card">
 							<h3 class="text-red mb-2">Follow Us</h3>
 							<p class="text-red py-3">
-								<a target="_blank" href="#" class="a-man"><i class="fab fa-facebook-f mx-2"></i></a>
-								<a target="_blank" href="#" class="a-man"><i class="fab fa-instagram mx-2"></i></a>
-								<a target="_blank" href="#" class="a-man"><i class="fab fa-twitter mx-2"></i></a>
-								<a target="_blank" href="#" class="a-man"><i
+								<a target="_blank" href="<?php echo $facebook; ?>" class="a-man"><i
+										class="fab fa-facebook-f mx-2"></i></a>
+								<a target="_blank" href="<?php echo $instagram; ?>" class="a-man"><i
+										class="fab fa-instagram mx-2"></i></a>
+								<a target="_blank" href="<?php echo $twitter; ?>" class="a-man"><i
+										class="fab fa-twitter mx-2"></i></a>
+								<a target="_blank" href="<?php echo $youtube; ?>" class="a-man"><i
 										class="fab fa-youtube mx-2 rounded"></i></a>
 							</p>
 						</div>
