@@ -19,17 +19,7 @@
         <div class="card bg-light text-danger banner">
             <img class="card-img img-fluid" src="images/gallery.jpg" alt="Card image">
             <div class="card-img-overlay">
-                <div class="row d-none">
-                    <div class="col-1"></div>
-                    <div class=" col-7 text-center ">
-                        <h3 class="card-title">Contact Us</h3>
-                        <p class="text-red d-none">Call Us <i class="fas fa-phone fa-rotate-90 px-2 "></i><span>
-                                +91 9905417686 <span class="text-warning">/</span> +91 9308819517</span>
-                        </p><br>
-                        <a href="contact-us.php" class="btn btn-danger my-2">Any Doubt</a>
-                        <div class="col-4"></div>
-                    </div>
-                </div>
+               
             </div>
         </div>
     </div>

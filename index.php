@@ -135,8 +135,7 @@
 			<span class="sr-only">Next</span>
 		</a>
 	</div>
-	<!--//slider-->
-	</header>
+	
 
 	<main>
 		<section>

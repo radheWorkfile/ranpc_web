@@ -37,7 +37,7 @@ session_start();
             </div>
         </div>
     </div>
-    </header>
+    
     <main>
         <section>
             <?php

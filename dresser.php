@@ -38,7 +38,7 @@
             </div>
         </div>
     </div>
-    </header>
+   
     <main>
         <section>
             <?php

@@ -26,16 +26,11 @@
 		<div class="card bg-light text-danger banner">
 			<img class="card-img img-fluid" src="images/about-us.jpg" alt="Card image">
 			<div class="card-img-overlay">
-				<div class="row d-none">
-					<div class="col-lg-6 col-sm-11 text-center ">
-						<h3 class="card-title">About Us</h3>
-						<div class="col-lg-6 col-sm-1"></div>
-					</div>
-				</div>
+				
 			</div>
 		</div>
 	</div>
-	</header>
+
 	<main>
 		<section>
 			<?php
