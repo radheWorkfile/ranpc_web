@@ -1,5 +1,5 @@
 <!-- footer -->
-<?php include('include/default.php');?>
+<?php include('include/default.php'); ?>
 <footer class="bg-colors pt-3 pb-1">
     <div class="container py-xl-4">
         <div class="row footer-grids">
@@ -11,7 +11,7 @@
                         <i class="fas fa-map-marker-alt"></i>
                     </div>
                     <div class="col-md-9 col-sm-8 col-10 address-right">
-                        <p><?php echo $address;?></p>
+                        <p><?php echo $address; ?></p>
                     </div>
                 </div>
             </div>
@@ -23,8 +23,8 @@
                             <i class="fas fa-phone fa-rotate-90 px-2 "></i>
                         </div>
                         <div class="col-md-9 col-sm-8 col-10 address-right">
-                            <p>+91 <?php echo $mobile_1;?></p>
-                            <p>+91 <?php echo $mobile_2;?></p>
+                            <p>+91 <?php echo $mobile_1; ?></p>
+                            <p>+91 <?php echo $mobile_2; ?></p>
                         </div>
                     </div>
                     <div class="row address-grid my-3">
@@ -33,7 +33,7 @@
                         </div>
                         <div class="col-md-9 col-sm-8 col-10 address-right">
                             <p>
-                                <a href="mailto:<?php echo $email;?>"><?php echo $email;?></a>
+                                <a href="mailto:<?php echo $email; ?>"><?php echo $email; ?></a>
                             </p>
                         </div>
                     </div>
@@ -112,15 +112,16 @@
         <div class="row">
             <!-- copyright -->
             <p class="col-lg-12 copy-right-grids text-bl text-lg-left text-center mt-lg-2 ">
-                <div class="col-10">
-                    <span class="float-left small">© 2019 <?php echo $company_1;?> | All
-                        Rights Reserved |</span>
-                </div>
-                <div class="col-2">
-                    <span class="float-right small">Designed by
-                        <a href="https://www.camwel.com/" target="_blank" class="text-colors"><img src="./images/camwel_logo.png" style="width:50%"></a></span>
-                </div>
-                 
+            <div class="col-10">
+                <span class="float-left small">© 2019 <?php echo $company_1; ?> | All
+                    Rights Reserved |</span>
+            </div>
+            <div class="col-2">
+                <span class="float-right small">Designed by
+                    <a href="https://www.camwel.com/" target="_blank" class="text-colors"><img
+                            src="./images/camwel_logo.png" style="width:50%"></a></span>
+            </div>
+
             </p>
             <!-- //copyright -->
 
@@ -133,5 +134,8 @@
 <!-- //move top icon -->
 
 <script src="js/jquery.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/main.js"></script>
+<script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
