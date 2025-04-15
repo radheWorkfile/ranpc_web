@@ -1181,7 +1181,7 @@ header .topnav ul li>a:hover {
 }
 
 .container-fluid .banner {
-    height: 221px;
+    max-height: 350px;
 }
 
 .banner {
@@ -1197,7 +1197,7 @@ header .topnav ul li>a:hover {
 .banner .card-img-overlay {
     display: flex;
     flex-flow: column;
-    height: 226px;
+   
     justify-content: center;
     color: #fff !important;
     background: #c8101063;
