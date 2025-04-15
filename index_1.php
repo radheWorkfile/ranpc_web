@@ -30,16 +30,13 @@
 	<div class="carousel-inner">
 			<div class="carousel-item active">
 				  <div class="card bg-light text-white slider"> 
-				  <!-- <img class="d-block w-100 card-img" src="images/banner_higherEdu.png.JPG" alt="Third Slide slide"> -->
-				  <img class="d-block w-100 card-img" src="images/banner_111.png" id="ForDesk" alt="Third Slide slide">
+				  <img class="d-block w-100 card-img" src="images/banner_higherEdu.png.JPG" alt="Third Slide slide">
+				  <!-- <img class="d-block w-100 card-img" src="images/banner_111.png" id="ForDesk" alt="Third Slide slide"> -->
 				  <div class="card-img-overlay">
 					  <div class="row text-center">
 						  <div class="col-3"></div>
 						  	<div class="col-6 text-left ">
 							 <!-- <h1 class="card-title caption-line"><br><? echo $company_1;?></h1> -->
-							<h1 class="card-title text-shadow text-man text-center suse-font wow ZoomIn"><br><b><?php echo $company_1; ?></b></h1>
-							<p class="text-center text-shadow textMan" style="line-height:18px;color:#110F47;font-weight:700;">Affiliated by Health Dept. Govt. of Bihar, BNRC, BUHS Patna. <br> (Managed by M.R. Foundation)</p>
-							<p class="text-center text-shadow textMan highlight-address text-white mt-5">Arvind Marg, Lachhubigha, Mahanandpur, Nagarnausa, Nalanda-801305</p>
 							  <div class="row mt-3 d-none">
 								  <div class="col-1"></div>
 								  <div class="col-5 text-center">A. N. M.
@@ -150,9 +147,118 @@
 			</div>
 		</div>
 	</div>
- </section>
+	<div class="container mt-5">
+		<div class="row">
+			<div class="col-md-12">
+				<table class="table table-hover">
+					<thead>
+						<tr class="text-center bg-danger text-light">
+							<th scope="col" colspan="4">COURSES AND ELIGIBILITY CRITERIA</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row">Course </th>
+							<td>
+								<p class="text-red font-weight-bold">A. N. M.</p>
+								<span class="small">Females Only</span>
+							</td>
+							<td class="d-none">
+								<p class="text-red font-weight-bold">G. N. M.</p>
+								<span class="small">Males &amp; Female</span>
+							</td>
+							<td class="d-none">
+								<p class="text-red font-weight-bold">B. Sc. Nursing</p>
+								<span class="small">Males  &amp; Females</span>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row">Duration </th>
+							<td>
+								<p class="text-red ">24 Months</p>
+							</td>
+							<td class="d-none">
+								<p class="text-red ">36 Months</p>
+							</td>
+							<td class="d-none">
+								<p class="text-red ">48 Months</p>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row">Academic Qualification </th>
+							<td>
+								<p class="text-red ">Intermediate or equivalents</p>
+							</td>
+							<td class="d-none">
+								<p class="text-red ">Intermediate or equivalents</p>
+							</td>
+							<td class="d-none">
+								<p class="text-red ">Intermediate or equivalents</p>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row">Age Limit </th>
+							<td>
+								<p class="text-red ">15 to 35 years</p>
+							</td>
+							<td class="d-none">
+								<p class="text-red ">15 to 35 years</p>
+							</td>
+							<td class="d-none">
+								<p class="text-red ">15 to 35 years</p>
+							</td>
+						</tr>
+						<tr>
+							<th scope="row">Admission Process </th>
+							<td>
+								<p class="text-red ">On the basis of written exam and interview Exam</p>
+							</td>
+							<td class="d-none">
+								<p class="text-red ">On the basis of written exam and interview Exam</p>
+							</td>
+							<td class="d-none">
+								<p class="text-red ">On the basis of written exam and interview Exam</p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<div class="container mt-5">
+			<div class="row">
+				<div class="col-md-12">
+						<table class="table table-hover">
+								<thead>
+								  <tr class="text-center bg-danger text-light">
+									<th scope="col" colspan="2">DISCIPLINARY GUIDELINE</th>
+								  </tr>
+								</thead>
+								<tbody>
+								  <tr>
+									<th scope="row">1</th>
+									<td>The students shall not do anything that may be judged as discriminating on their part against any of their college mates, members of staff and others on the basis of caste , creed, nationality, race, colour gender and religion.</td>
+								  </tr>
+								  <tr>
+									<th scope="row">2</th>
+									<td>The students shall have to exercise punctually and practically honour the routine and schedules laid down by the college and its peripheral or subsidiary wings likes hostel, mess, etc…</td>
+								  </tr>
+								  <tr>
+									<th scope="row">3</th>
+									<td>The student shall not do incriminating act nor shall they encourage others do so.</td>
+								  </tr>
+								  <tr>
+									<th scope="row">4</th>
+									<td>The students shall have to keep trying to behave more and more in conformity with the principles and manners recommended for good quality working professional nurses and midwives by incorporating in their manners the spirit of team work, honesty , commitment, cleanness and high standard of spiritual and moral values.</td>
+								  </tr>
+								</tbody>
+							  </table>
+							</div>
+						</div>
+					</div>
+				</section>
 	<!-- contact -->
-	<section class="contact my-5" id="contact">
+	<section class="contact" id="contact">
 		<div class="container pb-xl-3 pb-lg-1">
 			<h3 class="text-danger text-center font-weight-bold mb-4">Our Silent Features</h3>
 			<div class="row mx-sm-0 mx-2 mb-0">

@@ -11,9 +11,9 @@
         $message=trim($_POST["message"]);
         echo $name.$mobile.$email.$message;
         $to = "ranpc06@gmail.com";
-        $subject = "Enquiry From ranpc.com ";
+        $subject = "Enquiry From ranpc06@gmail.com";
         $headers =  'MIME-Version: 1.0' . "\r\n"; 
-        $headers .= 'From: ranpc.com' . "\r\n";
+        $headers .= 'From: ahe.com' . "\r\n";
         $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
         $full_message = "<html>
                         <head><title>Enquiry Data</title></head>
@@ -43,8 +43,8 @@
                         </html>";
         $user=$email;
         $user_subject= "Thank You $name";
-        $user_headers= 'From: ranpc.com' . "\r\n";
-        $user_message="Dear $name.\nWelcome to Raj Aryan Nursing & Paramedical college\n We have got your query.We will reach you soon.\nThank You!";
+        $user_headers= 'From: ranpc06@gmail.com.com' . "\r\n";
+        $user_message="Dear $name.\nWelcome to Aryaman Higher Education\n We have got your query.We will reach you soon.\nThank You!";
         $uanswer=intval(trim($_POST["uanswer"]));
         if($uanswer == $answer){
             if(mail($to,$subject,$full_message,$headers)){
@@ -60,8 +60,7 @@
             $_SESSION["response"]="<h3>Dear <span class='text-info'>$name</span>,</h3><blockquote><p>You have entered wrong <u class='text-warning'>captcha value</u>. Please Enter the correct value.<br/>For Quick Enquiry <span class='text-warning'>Call Us</span> at <span class='text-info'><i class='fas fa-phone fa-rotate-90 px-2 '></i><span> +91 9905417686 / +91 9308819517</span></span></p>
             <p>Please, try again!</p><p>Thank You!</p></blockquote>";
         }
-        //header("Location:http://localhost/camwel/studies/response.php");
-        header("Location:http://ranpc.in/response.php");
+        header("Location:response.php");
        
        }
        
