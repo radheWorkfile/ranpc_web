@@ -5,8 +5,10 @@
     <title>Gallery | Raj Aryan Nursing & Paramedical College</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8" />
-    <meta name="description" content="Raj Aryan Nursing & Paramedical College is a new initiative of Aryaman Educational Trust in the field of health education aiming at furnishing humanity with well trained,  professionally expert nurses and midwives that can provide unparalleled maternity services.">
-    <meta name="keywords" content="Best College For Nursing, Best College For Paramedical, Best Nursing & Paramedical College In Bihar, Nursing Colleges In Bihar, Paramedical College In Bihar, Affordable Nursing College In Bihar" />
+    <meta name="description"
+        content="Raj Aryan Nursing & Paramedical College is a new initiative of Aryaman Educational Trust in the field of health education aiming at furnishing humanity with well trained,  professionally expert nurses and midwives that can provide unparalleled maternity services.">
+    <meta name="keywords"
+        content="Best College For Nursing, Best College For Paramedical, Best Nursing & Paramedical College In Bihar, Nursing Colleges In Bihar, Paramedical College In Bihar, Affordable Nursing College In Bihar" />
     <?php include("include/js.php") ?>
     <?php include("include/css.php") ?>
 </head>
@@ -22,7 +24,7 @@
                     <div class=" col-7 text-center ">
                         <h3 class="card-title">Contact Us</h3>
                         <p class="text-red d-none">Call Us <i class="fas fa-phone fa-rotate-90 px-2 "></i><span>
-			+91 9905417686 <span class="text-warning">/</span> +91 9308819517</span>
+                                +91 9905417686 <span class="text-warning">/</span> +91 9308819517</span>
                         </p><br>
                         <a href="contact-us.php" class="btn btn-danger my-2">Any Doubt</a>
                         <div class="col-4"></div>
@@ -39,7 +41,8 @@
 
             <style>
                 .cus-border {
-                    border: 1px dotted  #ef5660;;
+                    border: 1px dotted #ef5660;
+                    ;
                     border-radius: 0.5rem;
                     padding: 2%;
                 }
@@ -48,7 +51,8 @@
             <div class="row my-5">
                 <div class="col-md-8 offset-md-2">
                     <h3 class="text-center" style="font-weight:700;"><span>Gallery</span></h3>
-                    <p class="text-center mt-1">Explore our vibrant gallery showcasing moments of creativity, inspiration, and community—capturing the essence of our journey through stunning visuals.</p>
+                    <p class="text-center text-dark mt-1">Explore our vibrant gallery showcasing moments of creativity,
+                        inspiration, and community—capturing the essence of our journey through stunning visuals.</p>
                 </div>
             </div>
 
@@ -56,33 +60,39 @@
 
                 <div class="col-md-3">
                     <div class="cus-border">
-                        <img class="card-img img-fluid" src="images/gallery/img-1.jpg" alt="Card image" onclick="openPopup(this)">
+                        <img class="card-img img-fluid" src="images/gallery/img-1.jpg" alt="Card image"
+                            onclick="openPopup(this)">
                     </div>
                 </div>
 
                 <div class="col-md-3">
                     <div class="cus-border">
-                        <img class="card-img img-fluid" src="images/gallery/img-2.jpg" alt="Card image" onclick="openPopup(this)">
+                        <img class="card-img img-fluid" src="images/gallery/img-2.jpg" alt="Card image"
+                            onclick="openPopup(this)">
                     </div>
                 </div>
 
                 <div class="col-md-3">
                     <div class="cus-border">
-                        <img class="card-img img-fluid" src="images/gallery/img-3.jpg" alt="Card image" onclick="openPopup(this)">
+                        <img class="card-img img-fluid" src="images/gallery/img-3.jpg" alt="Card image"
+                            onclick="openPopup(this)">
                     </div>
                 </div>
 
                 <div class="col-md-3">
                     <div class="cus-border">
-                        <img class="card-img img-fluid" src="images/gallery/img-4.jpg" alt="Card image" onclick="openPopup(this)">
+                        <img class="card-img img-fluid" src="images/gallery/img-4.jpg" alt="Card image"
+                            onclick="openPopup(this)">
                     </div>
                 </div>
 
             </div>
 
             <!-- Popup Fullscreen -->
-            <div id="imgPopup" style="display:none; position:fixed; z-index:9999; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.9); text-align:center;">
-                <span onclick="closePopup()" style="position:absolute; top:20px; right:30px; color:white; font-size:40px; font-weight:bold; cursor:pointer;">&times;</span>
+            <div id="imgPopup"
+                style="display:none; position:fixed; z-index:9999; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.9); text-align:center;">
+                <span onclick="closePopup()"
+                    style="position:absolute; top:20px; right:30px; color:white; font-size:40px; font-weight:bold; cursor:pointer;">&times;</span>
                 <img id="popupImage" src="" style="margin-top:50px; max-width:100%; max-height:90vh;">
             </div>
 
@@ -95,8 +105,8 @@
     <main>
         <section>
             <?php
-			include("include/sideform.php");
-			?>
+            include("include/sideform.php");
+            ?>
         </section>
 
 

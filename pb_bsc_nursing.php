@@ -98,7 +98,7 @@
                     <div class="col-md-5 eligibility">
                         <table class="table table-hover">
                             <thead>
-                                <tr class="text-center bg-danger text-light">
+                                <tr class="text-center bg-danger wow animate__   text-light animate__lightSpeedInLeft animated" data-wow-delay="0.5s" data-wow-duration="1.5s">
                                 <th scope="col" colspan="2">COURSE ELIGIBILITY</th>
                                 </tr>
                             </thead>
@@ -121,7 +121,7 @@
                     <div class="col-md-7 admission-process">
                             <table class="table table-hover">
                                 <thead>
-                                    <tr class="text-center bg-danger text-light">
+                                    <tr class="text-center bg-danger wow animate__   text-light animate__lightSpeedInRight animated" data-wow-delay="0.5s" data-wow-duration="1.5s">
                                     <th scope="col" colspan="2">ADMISSION PROCESS</th>
                                     </tr>
                                 </thead>

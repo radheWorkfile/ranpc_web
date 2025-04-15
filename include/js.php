@@ -1,8 +1,5 @@
-
-
-
 <script>
-	addEventListener("load", function() {
+	addEventListener("load", function () {
 		setTimeout(hideURLbar, 0);
 	}, false);
 
@@ -10,3 +7,4 @@
 		window.scrollTo(0, 1);
 	}
 </script>
+

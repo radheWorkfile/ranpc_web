@@ -11,8 +11,8 @@
 			<ul class="small text-white list-unstyled mb-2 mt-1">
 				<li><i class="fas fa-phone fa-rotate-90 px-2 "></i><span>
 					+91 9905417686 <span class="text-warning">/</span> +91 9308819517</span></li>
-				<li class=" d-none d-lg-inline-block d-xl-inline-block"><i class="fas fa-envelope pr-2"></i>
-					<span>ranpc06@gmail.com</span></li>
+				<!-- <li class=" d-none d-lg-inline-block d-xl-inline-block"><i class="fas fa-envelope pr-2"></i>
+					<span>ranpc06@gmail.com</span></li> -->
 				<li class="text-white d-none d-md-inline-block d-lg-inline-block d-xl-inline-block ">
 					<a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a>
 					<a target="_blank" href="#"><i class="fab fa-instagram"></i></a>
