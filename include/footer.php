@@ -5,12 +5,12 @@
         <div class="row footer-grids">
             <div class="col-lg-3 col-sm-6 footer-grid">
                 <h3 class="mb-sm-3 mb-2 pb-lg-2">Our Address</h3>
+                <div class="row address-grid ">
 
-                <div class="row address-grid">
-                    <div class="col-md-3 col-sm-4 col-2 address-left text-center">
-                        <i class="fas fa-map-marker-alt"></i>
-                    </div>
-                    <div class="col-md-9 col-sm-8 col-10 address-right">
+
+
+                    <div class="address-right d-flex ">
+                        <i class="fas fa-map-marker-alt px-2 pr-lg-2"></i>
                         <p><?php echo $address; ?></p>
                     </div>
                 </div>
@@ -19,19 +19,19 @@
                 <div class="address">
                     <h3 class="mb-sm-3 mb-2 pb-lg-2"> Contact Us</h3>
                     <div class="row address-grid">
-                        <div class="col-md-3 col-sm-4 col-2 address-left text-center">
-                            <i class="fas fa-phone fa-rotate-90 px-2 "></i>
+                        <div class=" address-left text-center mt-3" id="rotate-right-part">
+                            <i class="fas fa-phone fa-rotate-90 "></i>
                         </div>
-                        <div class="col-md-9 col-sm-8 col-10 address-right">
+                        <div class=" address-right">
                             <p>+91 <?php echo $mobile_1; ?></p>
                             <p>+91 <?php echo $mobile_2; ?></p>
                         </div>
                     </div>
-                    <div class="row address-grid my-3">
-                        <div class="col-md-3 col-sm-4 col-2 address-left text-center">
-                            <i class="fa fa-envelope"></i>
+                    <div class="row address-grid my-3 align-items-center pl-3">
+                        <div class=" address-left text-center">
+                            <i class="fa fa-envelope right-part-section"></i>
                         </div>
-                        <div class="col-md-9 col-sm-8 col-10 address-right">
+                        <div class=" address-right">
                             <p>
                                 <a href="mailto:<?php echo $email; ?>"><?php echo $email; ?></a>
                             </p>
@@ -42,62 +42,62 @@
             <div class="col-lg-3 col-sm-6 footer-grid mt-sm-0 mt-4 px-lg-5">
                 <h3 class="mb-sm-3 mb-2 pb-lg-2">Quick Links</h3>
                 <div class="quicklinks ">
-                    <table class="table table-hover text-white">
-
-                        <tbody>
-                            <tr>
-                                <th scope="row"><i class="fas fa-link"></i></th>
-                                <td><a class="scroll" href="about-us.php">About Us</a></td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><i class="fas fa-link"></i></th>
-                                <td><a class="scroll" href="placement.php">Placement</a></td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><i class="fas fa-link"></i></th>
-                                <td><a class="scroll" href="admission.php">Admission</a></td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><i class="fas fa-link"></i></th>
-                                <td><a class="scroll" href="contact-us.php">Contact Us</a></td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div class="table table-hover text-white">
+                        <ul style="list-style-type: none;">
+                            <li>
+                                <i class="fas fa-link"></i>
+                                <a class="scroll" href="about-us.php">About Us</a>
+                            </li>
+                            <li class="py-2">
+                                <i class="fas fa-link"></i>
+                                <a class="scroll" href="placement.php">Placement</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-link"></i>
+                                <a class="scroll" href="admission.php">Admission</a>
+                            </li>
+                            <li class="py-2">
+                                <i class="fas fa-link"></i>
+                                <a class="scroll" href="contact-us.php">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6 footer-grid footer-contact mt-lg-0 mt-4 pl-lg-5">
                 <h3 class="mb-sm-3 mb-2 pb-lg-2">Follow Us</h3>
                 <!-- social icons -->
                 <div class="social">
-                    <table class="table table-hover text-white">
+                    <div class="table table-hover text-white">
 
-                        <tbody>
-                            <tr>
-                                <th scope="row"><a href="#" class="rounded-circle">
-                                        <span class="fab fa-facebook"></span>
-                                    </a></th>
+                        <ul style="list-style-type: none;">
+                            <li>
+                                <a href="#" class="rounded-circle">
+                                    <span class="fab fa-facebook"></span>
+                                </a>
                                 <td><a href="#">Facebook</a></td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><a href="#" class="rounded-circle">
-                                        <span class="fab fa-instagram"></span>
-                                    </a></th>
-                                <td><a class="scroll" href="#">Instagram</a></td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><a href="#" class="rounded-circle">
-                                        <span class="fab fa-twitter"></span>
-                                    </a></th>
-                                <td><a class="scroll" href="#">Twitter</a></td>
-                            </tr>
-                            <tr>
-                                <th scope="row"><a href="#" class="rounded-circle">
-                                        <span class="fab fa-youtube fa-1x"></span>
-                                    </a></th>
-                                <td><a class="scroll" href="#">Youtube</a></td>
-                            </tr>
-                        </tbody>
-                    </table>
+                            </li>
+                            <li class="py-2">
+                                <a href="#" class="rounded-circle">
+                                    <span class="fab fa-instagram"></span>
+                                </a>
+                                <td><a href="#">Instagram</a></td>
+                            </li>
+                            <li>
+                                <a href="#" class="rounded-circle">
+                                    <span class="fab fa-twitter"></span>
+                                </a>
+                                <td><a href="#">Twitter</a></td>
+                            </li>
+                            <li class="py-2">
+                                <a href="#" class="rounded-circle">
+                                    <span class="fab fa-youtube"></span>
+                                </a>
+                                <td><a href="#">Youtube</a></td>
+                            </li>
+
+                        </ul>
+                    </div>
                 </div>
 
                 <!-- //social icons -->
@@ -139,3 +139,6 @@
 <script src="js/bootstrap.js"></script>
 <script src="js/main.js"></script>
 <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+<script>
+    new WOW().init();
+</script>
