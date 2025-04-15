@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Gallery | Raj Aryan Nursing & Paramedical College</title>
+    <title>Gallery || Aryaman Higher Education</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8" />
     <meta name="description"

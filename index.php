@@ -6,7 +6,7 @@
 
 <head>
 	<?php include("include/default.php") ?>
-	<title><?php echo $company_1; ?></title>
+	<title>Home || <?php echo $company_1; ?></title>
 	<!-- Meta tag Keywords -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="UTF-8" />

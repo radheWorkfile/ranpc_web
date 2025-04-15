@@ -5,7 +5,7 @@
 <html lang="en">
 
 <head>
-  <title>Aryaman Higher Education</title>
+  <title>ANM || Aryaman Higher Education</title>
   <!-- Meta tag Keywords -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="UTF-8" />

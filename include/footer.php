@@ -72,28 +72,28 @@
 
                         <ul style="list-style-type: none;">
                             <li>
-                                <a href="#" class="rounded-circle">
+                                <a href="<?php echo $facebook; ?>" target="_blank" class=" rounded-circle">
                                     <span class="fab fa-facebook"></span>
                                 </a>
-                                <td><a href="#">Facebook</a></td>
+                                <td><a href="<?php echo $facebook; ?>" target="_blank">Facebook</a></td>
                             </li>
-                            <li class="py-2">
-                                <a href="#" class="rounded-circle">
+                            <li class=" py-2">
+                                <a href="<?php echo $instagram; ?>" target="_blank" class=" rounded-circle">
                                     <span class="fab fa-instagram"></span>
                                 </a>
-                                <td><a href="#">Instagram</a></td>
+                                <td><a href="<?php echo $instagram; ?>" target="_blank">Instagram</a></td>
                             </li>
                             <li>
-                                <a href="#" class="rounded-circle">
+                                <a href=" <?php echo $twitter; ?>" target="_blank" class="rounded-circle">
                                     <span class="fab fa-twitter"></span>
                                 </a>
-                                <td><a href="#">Twitter</a></td>
+                                <td><a href="<?php echo $twitter; ?>" target="_blank">Twitter</a></td>
                             </li>
-                            <li class="py-2">
-                                <a href="#" class="rounded-circle">
+                            <li class=" py-2">
+                                <a href="<?php echo $youtube; ?>" class=" rounded-circle">
                                     <span class="fab fa-youtube"></span>
                                 </a>
-                                <td><a href="#">Youtube</a></td>
+                                <td><a href="<?php echo $youtube; ?>" target="_blank">Youtube</a></td>
                             </li>
 
                         </ul>
@@ -107,14 +107,15 @@
 </footer>
 <!-- //footer -->
 <!-- copyright -->
-<div class="copyright-w3ls py-2">
+<div class=" copyright-w3ls py-2">
     <div class="container">
         <div class="row">
             <!-- copyright -->
             <p class="col-lg-12 copy-right-grids text-bl text-lg-left text-center mt-lg-2 ">
             <div class="col-10">
-                <span class="float-left small">© 2019 <?php echo $company_1; ?> | All
-                    Rights Reserved |</span>
+                <span class="float-left small">© 2019 <?php echo $company_1; ?> |
+                    All
+                    Rights Reserved </span>
             </div>
             <div class="col-2">
                 <span class="float-right small">Designed by
